@@ -1,0 +1,38 @@
+{
+  "name": "react-slider",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "tsc --build --clean",
+    "build": "npm run clean && tsc --build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emordvitskiy/react-slider.git"
+  },
+  "author": "Eduard Mordvytskyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emordvitskiy/react-slider/issues"
+  },
+  "homepage": "https://github.com/emordvitskiy/react-slider#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-webpack4": "^6.5.16",
+    "@storybook/manager-webpack4": "^6.5.16",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "babel-loader": "^8.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "storybook": "^6.5.16",
+    "typescript": "^4.9.5"
+  }
+}
